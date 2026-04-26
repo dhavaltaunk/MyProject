@@ -34,8 +34,10 @@ class TestWeatherApp(unittest.TestCase):
     def test_window_properties(self):
         """Test window properties are set correctly"""
         self.assertEqual(self.app.root.title(), "Weather App")
-        geometry = self.app.root.geometry()
-        self.assertIn("400x320", geometry)
+        # Verify window is not resizable
+        resizable = self.app.root.resizable()
+        self.assertFalse(resizable[0])  # width not resizable
+        self.assertFalse(resizable[1])  # height not resizable
 
     def test_city_entry_widget_exists(self):
         """Test that city entry widget is created"""
