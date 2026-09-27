@@ -1,0 +1,5 @@
+
+    Machine learning is a branch of artificial intelligence that enables algorithms to automatically learn from data without being explicitly programmed. Its practitioners train algorithms to identify patterns in data and to make decisions with minimal human intervention.
+
+In the past two decades, machine learning has gone from a niche academic interest to a  central part of the tech industry. It has given us self-driving cars, speech and image recognition, effective web search, fraud detection, a vastly improved understanding of the human genome, and many other advances. Amid this explosion of applications, there is a shortage of qualified data scientists, analysts, and machine learning engineers, making them some of the world’s most in-demand professionals.
+    
